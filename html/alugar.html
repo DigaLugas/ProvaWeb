@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora Zika</title>
+    
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, #960093, #f400a1);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px white;
+    background-color: black;
+}
+
+.container h2{
+    margin-left: 40%;
+    color: white;
+}
+input, select{
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+button{
+    cursor: pointer;;
+    margin-left: 35%;
+    padding: 10px;
+    width: 100px;
+    border-radius: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+button:hover{
+    box-shadow: 0 0 5px white;
+}
+label{
+    color: white;
+    
+}
+
+     label{
+        color: white;
+        
+    }
+
+</style>
+<body>
+
+    <div class="container">
+        <h2>Alugar</h2>
+        <br>
+        
+        <form>
+            <label for="">Digite o nome do produto</label>
+            <input type="text" required/>
+            <br>
+            <label for="">Qual o tipo do produto?</label>
+            <br>
+            <select name="" id="">
+               <option value="Mangá">Mangá</option>
+               <option value="DvD">DvD</option>
+               <option value="Jogo">Jogo</option>
+            </select>
+            <br>
+            <label for="">Até quando?</label>
+            <br>
+            <input type="date" name="" id="" required>
+            <br>
+            <label for="">Digite sua senha para confirmar</label>
+            <input type="password" required>
+            <button><a href="../index.html">Enviar</a></button>
+            
+        </form>
+
+    </div>
+</body>
+</html>
